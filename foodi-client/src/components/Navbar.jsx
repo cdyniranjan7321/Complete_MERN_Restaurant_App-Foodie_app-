@@ -12,6 +12,7 @@ const Navbar = () => {
 
   const {user} = useContext(AuthContext);
   console.log(user)
+
   
   const [cart, refetch] = useCart();
   //console.log(cart)
